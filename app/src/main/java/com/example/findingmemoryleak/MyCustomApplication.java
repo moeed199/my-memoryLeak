@@ -27,4 +27,7 @@ public class MyCustomApplication extends Application {
         super.onCreate();
         refWatcher = LeakCanary.install(this);
     }
+
+
+    //checking for new branch
 }
